@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\mokdong">
+      <UniqueIdentifier>{d87a7ad6-e1e9-4fa7-9976-3f59e6245ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\mokdong">
+      <UniqueIdentifier>{c1fde227-035d-4335-9213-2eaca7d07cd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mokdong\buffer.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\cryption.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\global.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\net_object.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\net_util.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\pattern.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\room.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\server.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\service_client.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\service_core.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\service_data.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\service_handler.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\service_server.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\user.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+    <ClCompile Include="mokdong\util.cpp">
+      <Filter>소스 파일\mokdong</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mokdong\buffer.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\config.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\cryption.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\global.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\net_object.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\net_util.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\pattern.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\room.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\server.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\service.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\service_client.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\service_core.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\service_data.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\service_handler.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\service_server.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\type.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\user.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+    <ClInclude Include="mokdong\util.h">
+      <Filter>헤더 파일\mokdong</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
